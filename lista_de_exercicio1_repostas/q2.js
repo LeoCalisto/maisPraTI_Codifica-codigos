@@ -1,7 +1,6 @@
+//Percentualizador de votos
 const prompt = require('prompt-sync')(); 
 
-
-//Percentualizador de votos
 let eleitores = parseInt(prompt("Quantos eleitores tem na cidade? "));
 let voto_branco = parseInt(prompt("Digite quanto vostos foram brancos:  "));
 let voto_nulo = parseInt(prompt("Digite quantos votos foram nulos: "));

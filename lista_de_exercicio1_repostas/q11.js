@@ -1,3 +1,4 @@
+//Verifica se o número digitado é par ou impar
 const prompt = require('prompt-sync')();
 
 let numero = parseInt(prompt("Digite um número: "));

@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')();
 
+//Operação com números
 let num1 = parseInt(prompt("Digite o primeiro numero inteiro: "));
 let num2 = parseInt(prompt("Digite o segundo numero inteiro: "));
 let num3 = parseInt(prompt("Digite o terceiro numero inteiro: "));

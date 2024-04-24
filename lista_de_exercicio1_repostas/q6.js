@@ -1,3 +1,4 @@
+//Verificação e classificação de um triangulo
 const prompt = require('prompt-sync')();
 
 let ladoA = Number(prompt("Digite o primeiro lado"));

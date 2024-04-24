@@ -1,7 +1,7 @@
+//operação simples de acordo condicional
 const prompt = require('prompt-sync')();
+
 let valorTotal;
-
-
 let totalFruta = parseInt(prompt("Quantas maçãs foram compradas? "));
 
 if (totalFruta < 12){

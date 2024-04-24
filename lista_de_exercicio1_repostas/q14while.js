@@ -1,4 +1,6 @@
+//Média entre n números decimais digitados
 const prompt = require('prompt-sync')();
+
 let somaValores = 0;
 let contagem = 0;
 let numero = parseFloat(prompt("Digite o numero decimal: "));

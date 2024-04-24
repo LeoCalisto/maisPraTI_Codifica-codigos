@@ -1,3 +1,4 @@
+//Maior entre dois números(valores não iguais)
 const prompt = require('prompt-sync')();
 
 let num1 = Number(prompt("Digite um número: "));

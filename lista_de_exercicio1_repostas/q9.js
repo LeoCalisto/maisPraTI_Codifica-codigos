@@ -1,3 +1,4 @@
+//imprime nome da região baseado num range de index
 const prompt = require('prompt-sync')();
 
 let regiao;

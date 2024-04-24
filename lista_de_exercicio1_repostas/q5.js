@@ -1,6 +1,7 @@
+//Média entre duas notas retornando aprovação ou reprovação
 const prompt = require('prompt-sync')();
-let media;
 
+let media;
 let nota1 = Number(prompt("Digite a primeira nota: "));
 let nota2 = Number(prompt("Digite a segunda nota: "));
 
@@ -11,3 +12,4 @@ if (media >= 6){
 }else{
     console.log("Você  foi REPROVADO! Estude mais");
 };
+

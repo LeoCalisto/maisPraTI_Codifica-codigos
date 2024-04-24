@@ -1,5 +1,5 @@
+//Imprime 10x o número digitado
 const prompt = require('prompt-sync')();
-
 
 let numero = parseInt(prompt("Digite um número inteiro: "));
 

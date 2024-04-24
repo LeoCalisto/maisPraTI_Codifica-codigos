@@ -1,3 +1,4 @@
+//imprime 50 primeiros números primos maior que 100
 const prompt = require('prompt-sync')();
 
 let quantidadePrimo = 0;
