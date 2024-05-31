@@ -1,0 +1,9 @@
+//18. Crie um registro com o nome do funcionário, cargo e salário. Leia este registro para um funcionário e ao final escreva o conteúdo do registro.
+const prompt = require('prompt-sync')();
+const funcionario = {
+   nome: prompt("Digite o nome do funcionário: "),
+   cargo: prompt("Digite o cargo deste funcionário: "),
+   salario: parseFloat(prompt("Digite o salario desse funcionario: "))
+}
+
+console.log(funcionario);
